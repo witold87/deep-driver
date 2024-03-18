@@ -1,3 +1,13 @@
+## Deep Driver Project Introduction
+- Project date: 2019
+- Project object: Design and run augmented RC car with replaced steering - from radio controlled car to autonomous car 
+- Tech stack: python, pillow, open-cv, tensorflow (on Coral TPU, model inference), google cloud (model training)
+- 
+
+## TL:DR
+
+[deep-driver-success.mp4](deep-driver-success.mp4)
+
 ## Deep Driver Guide
 This guide covers installation and using the scripts related to the code uploaed on this repository. Please have in mind that complete startup guide for both hardware and software are presented on the Confluence page right here [Confluence](http://www.google.pl "Confluence")
 
