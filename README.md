@@ -6,7 +6,7 @@
 
 ## TL:DR
 
-[deep-driver-success.mp4](deep-driver-success.mp4)
+![deep-driver-success-gif.gif](deep-driver-success-gif.gif)
 
 ## Deep Driver Guide
 This guide covers installation and using the scripts related to the code uploaed on this repository. Please have in mind that complete startup guide for both hardware and software are presented on the Confluence page right here [Confluence](http://www.google.pl "Confluence")
