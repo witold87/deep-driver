@@ -2,17 +2,17 @@
 - Project date: 2019
 - Project object: Design and run augmented RC car with replaced steering - from radio controlled car to autonomous car 
 - Tech stack: python, pillow, open-cv, tensorflow (on Coral TPU, model inference), google cloud (model training)
-- 
 
-## TL:DR
+
+## TL;DR
 
 ![deep-driver-success-gif.gif](deep-driver-success-gif.gif)
 
 ## Deep Driver Guide
-This guide covers installation and using the scripts related to the code uploaed on this repository. Please have in mind that complete startup guide for both hardware and software are presented on the Confluence page right here [Confluence](http://www.google.pl "Confluence")
+This guide covers installation and using the scripts related to the code upload on this repository.
 
 ### Running the scripts
-We have delivered some basic scripts in order to make the work easier at the beggining.  To make it also easy to read and develop, we have splitted the main logic into 4 different scripts:
+We have delivered some basic scripts in order to make the work easier at the beginning.  To make it also easy to read and develop, we have splitted the main logic into 4 different scripts:
 - record data (gathering data)
 - convert data (converting to more suitable format)
 - extract frames (chopping raw data into separate images; even short movie produces many frames)
@@ -74,7 +74,3 @@ Having trained model and related labels, head towards the last script - classify
 `python3 classify_image.py --model <path-to-model> --labels <path-to-labels>`
 
 When the camera start you should be able to see how script makes real-time predictions.
-
-Congratulations! You setup everything and it works! Now is the time to move on, expand and improve existing code and ideas to deliver one of a kind autonomous driving solution!
-
-POC Team
